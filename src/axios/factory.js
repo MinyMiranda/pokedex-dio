@@ -5,7 +5,7 @@ import{
     responseErrorInterceptor
 } from './interceptors' 
 
-function Factory(baseUrl){
+function Factory(baseURL){
     const instance=axios.create({
         baseURL,
     });
