@@ -5,7 +5,7 @@ export default {
     updateOffset() {
         state.offset += state.limit;
     },
-    
+
     // Adiciona Pokemons para a Pokedex pro infinit Load
     setList(list) {
         state.list.push(...list);
@@ -33,6 +33,7 @@ export default {
         state.isPokemonSearch = false;
         state.listHasError = false;
         state.searchHasError = false;
+        state.pokemonId = null;
     },
 
     // Adicionar a pokedex somente aquele que foi feito a busca
@@ -54,4 +55,9 @@ export default {
     setSearchHasError(flag) {
         state.searchHasError = flag;
     },
+    // selecionar pokemon
+    setPokemonId(id = null) {
+        state.isPokemonSearch = false;
+        state.pokemonId = id;
+    }
 };

@@ -23,7 +23,6 @@ export default {
 			if (pokemonsList?.results?.length) {
 				const prepareInfo = pokemonsList.results.map(item => PokeAPI.getPokemonByName(item.name));
 				const pokemonsInfo = await Promise.all(prepareInfo);
-
 				setList(pokemonsInfo);
 			}
 

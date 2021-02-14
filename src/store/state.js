@@ -12,8 +12,10 @@ export default Vue.observable({
 
     isSearching: false,
     isPokemonSearch: false,
-    searchHasError:false,
-    
-    limit:LIMIT,
-    offset:OFFSET,
+    searchHasError: false,
+
+    limit: LIMIT,
+    offset: OFFSET,
+
+    pokemonId: null,
 });

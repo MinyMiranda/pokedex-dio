@@ -1,7 +1,7 @@
 <template>
   <div class="search">
     <label for="search" class="search__label text--white bg--black">
-      <h3 class="search__label--text">E.g.: Charizard </h3>
+      <h3 class="search__label--text">E.g.: Charizard | 6</h3>
       <input
         type="text"
         id="search"
