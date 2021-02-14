@@ -1,5 +1,8 @@
 # pokedex-dio
 
+## About the project 
+The project was developed for the purpose of learning in the Vue.js course at Digital Innovation One.
+
 ## Project setup
 ```
 npm install
